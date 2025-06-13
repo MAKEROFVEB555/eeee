@@ -5,7 +5,7 @@ if (isset($_POST['name']) && isset($_POST['tel'])) {
 
     if (
         mail(
-            'dmitrychoo@mail.ru',
+            'programmeur555@outlook.com',
             'Новое письмо',
             'Вы успешно зарегистрованы!' . "\n" .
             'Вы ввели телефон: ' . $tel
